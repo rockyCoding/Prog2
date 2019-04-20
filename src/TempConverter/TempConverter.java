@@ -75,7 +75,7 @@ public class TempConverter extends Application {
                 }
             } catch (Exception e) {
                 validation.setTextFill(Color.web("#ce0a0a"));
-                validation.setText("Eingabe ungültig! \nBitte nur Zahlen eingeben.(Bsp. 23.5)");
+                validation.setText("Eingabe ungültig! \nBitte nur Zahlen eingeben. (Bsp. 23.5)");
                 inString = null;
                 celcIn.clear();
                 fahrIn.clear();

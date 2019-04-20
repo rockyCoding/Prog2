@@ -11,6 +11,8 @@ import javafx.scene.paint.Color;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 
+//Credit to https://github.com/buckyroberts/ and his JavaFX tutorials, this code ist partially copied from his tutorial repo. Great guy, great work :)
+
 public class LimitationHandler {
 
     static boolean restricted;
