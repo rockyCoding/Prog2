@@ -47,7 +47,7 @@ public class AlertHandler {
 
         box.setAlignment(Pos.CENTER);
 
-        Label label = new Label("Sollten Sie weitere Umrechnungen machen wollen, starten Sie das Programm bitte erneut.\n\n Vielen Dank fürs Nutzen dieses Temperaturkonverters.");
+        Label label = new Label("Sollten Sie weitere Umrechnungen machen wollen, \nstarten Sie das Programm bitte erneut.\n\n Vielen Dank fürs Nutzen dieses Temperaturkonverters.");
         box.getChildren().add(label);
 
         return finalScene;
