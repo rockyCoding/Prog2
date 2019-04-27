@@ -1,0 +1,7 @@
+# ignoring .idea directory
+**/.idea
+
+# ignoring out directory
+**/out
+
+students.csv
