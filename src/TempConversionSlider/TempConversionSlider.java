@@ -122,11 +122,12 @@ public class TempConversionSlider extends Application {
         slider = new Slider(-30, 90, 0);
         slider.setMajorTickUnit(1);
         slider.setMinorTickCount(9);
-        slider.setOrientation(Orientation.HORIZONTAL);
+        slider.setOrientation(Orientation.VERTICAL);
         //slider.setStyle();
         sliderTempLabel = new Label();
         sliderBox = new VBox();
         sliderBox.getChildren().addAll(sliderTempLabel, slider);
+        sliderBox.setAlignment(Pos.CENTER);
 
         // not here
         /*celc = new Label("Genaue Umrechnung: ");
