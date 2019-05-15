@@ -33,7 +33,7 @@ public class TempConversionSlider extends Application {
         window1 = Stage;
         window1.setTitle("Temperaturkonverter: F => °C");
         window1.setMinWidth(500);
-        window1.setMaxHeight(320);
+        window1.setMinHeight(400);
 
         Scene mainFrame = createMainframe();
 
@@ -66,9 +66,10 @@ public class TempConversionSlider extends Application {
         mainBox.setAlignment(Pos.CENTER);
         mainBox.setSpacing(30);
         mainBox.setPadding(new Insets(15, 15, 15, 15));
+        mainBox.setMinHeight(500);
 
 
-        Scene mainFrame = new Scene(mainBox, 550, 400);
+        Scene mainFrame = new Scene(mainBox, 450, 450);
 
         //Label at top of window
         lblTop = new Label("Stellen Sie die Temperatur in Fahrenheit mit dem Slider ein.\n"
